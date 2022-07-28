@@ -5,10 +5,98 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+/* slider */
+.slider-item img{
+  filter: brightness(0.5);
+}
 .slider-caption{
   height: fit-content;
 }
+.slider-caption h1{
+  font-size: 65px;
+}
+.slider-caption p{
+  font-size: 18px;
+}
+/* courses */
+.section-header{
+  width: 60%;
+}
+.section-title{
+  font-size: 45px;
+}
+/* FAQ */
+.faq button.accordion-button{
+  border: 1px solid transparent;
+}
+.faq button.accordion-button.collapsed{
+  border: 1px solid #E8E8E8;
+}
+/* Footer */
+footer{
+  background-color: #161616;
+}
+.footer-nav{
+  font-size: 15px;
+}
+.social-menus a{
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #242424;
+  transition: opacity .3s;
+}
+.social-menus a:hover{
+  opacity: .6;
+}
 
+/*  */
+@media (max-width: 768px){
+  .slider-item{
+    height: 300px;
+  }
+  .slider-item img{
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider-caption h1{
+    font-size: 20px;
+  }
+  .slider-caption p{
+    font-size: 12px;
+  }
+  /* courses */
+  .section-header{
+    width: 90%;
+  }
+  .section-title{
+    font-size: 20px;
+  }
+  .section-info{
+    font-size: 14px;
+  }
+  .courses-header .section-title{
+    font-size: 18px;
+  }
+  /* FAQ */
+  .faqs-section{
+    width: 100% !important;
+  }
+}
+
+/*  */
+@media (min-width: 768px) and (max-width: 992px){
+  .slider-caption h1{
+    font-size: 40px;
+  }
+  .slider-caption p{
+    font-size: 16px;
+  }
+  /* courses */
+  .section-title{
+    font-size: 30px;
+  }
+}
 /*  */
 @media (min-width: 992px) and (max-width: 1200px){
   .card .col-md-4{
@@ -18,5 +106,13 @@ body{
   .card img{
     height: 100%;
     object-fit: cover;
+  }
+  .slider-caption{
+    width: 70% !important;
+  }
+}
+@media (min-width: 1200px){
+  .slider-caption{
+    width: 60% !important;
   }
 }
