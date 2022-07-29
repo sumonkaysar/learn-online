@@ -25,6 +25,16 @@ body{
 .section-title{
   font-size: 45px;
 }
+/* Institute */
+.institute img{
+  object-fit: cover;
+}
+.counts h1{
+  font-size: 45px;
+}
+.counts p{
+  font-size: 20px;
+}
 /* FAQ */
 .faq button.accordion-button{
   border: 1px solid transparent;
@@ -82,6 +92,13 @@ footer{
   .courses-header .section-title{
     font-size: 18px;
   }
+  /* Institute */
+  .counts h1{
+    font-size: 25px;
+  }
+  .counts p{
+    font-size: 15px;
+  }
   /* FAQ */
   .faqs-section{
     width: 100% !important;
@@ -99,6 +116,13 @@ footer{
   /* courses */
   .section-title{
     font-size: 30px;
+  }
+  /* Institute */
+  .counts h1{
+    font-size: 25px;
+  }
+  .counts p{
+    font-size: 16px;
   }
 }
 /*  */
